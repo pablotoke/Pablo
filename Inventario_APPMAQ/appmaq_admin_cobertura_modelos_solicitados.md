@@ -1,0 +1,351 @@
+﻿# Cobertura Admin APPMAQ - Modelos Solicitados
+
+Total de modelos solicitados: 162
+Modelos sem nenhum manual no admin: 23
+Modelos que ainda faltam algum prioritario (operador/servico/pecas): 136
+
+## Sem nenhum manual no admin
+
+### MASSEY FERGUSON
+- MF4707
+
+### NEW HOLLAND
+- TK4.80N | parecido no admin: TK4.80
+- TT55 | parecido no admin: TT55F
+- TT75 | parecido no admin: TT75F
+
+### VALTRA
+- A800C
+- A800P
+- A800R
+- A850 | parecido no admin: A850F
+- A850C
+- A850R
+- A950
+- A950C
+- A950R
+- A990
+- A990C
+- A990R
+- BM115
+- BM115C
+- BM135
+- BM135C
+- BT170
+- BT190
+- BT210
+
+## Faltam documentos prioritarios
+
+### MASSEY FERGUSON
+- 8S.305: faltam manual_servico_oficina | cadastrados: 4
+- MF3306: faltam manual_servico_oficina | cadastrados: 4
+- MF3307: faltam manual_servico_oficina | cadastrados: 4
+- MF3308: faltam manual_servico_oficina | cadastrados: 4
+- MF4265: faltam manual_servico_oficina | cadastrados: 7
+- MF4275: faltam manual_servico_oficina | cadastrados: 8
+- MF4280: faltam manual_servico_oficina | cadastrados: 5
+- MF4283: faltam manual_servico_oficina | cadastrados: 6
+- MF4290: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 1
+- MF4292: faltam manual_servico_oficina | cadastrados: 6
+- MF4297: faltam manual_servico_oficina | cadastrados: 6
+- MF4299: faltam manual_servico_oficina | cadastrados: 6
+- MF4305: faltam manual_servico_oficina | cadastrados: 3
+- MF4307: faltam manual_servico_oficina | cadastrados: 6
+- MF4408: faltam manual_servico_oficina | cadastrados: 5
+- MF4409: faltam manual_servico_oficina | cadastrados: 5
+- MF4410: faltam manual_servico_oficina | cadastrados: 10
+- MF4707: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- MF4708: faltam manual_servico_oficina | cadastrados: 5
+- MF4709: faltam manual_servico_oficina | cadastrados: 5
+- MF50: faltam manual_servico_oficina | cadastrados: 3
+
+### NEW HOLLAND
+- T9.470 - COM LEVANTE: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.470 - PIVOT: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.480: faltam manual_servico_oficina | cadastrados: 5
+- T9.520 - COM LEVANTE: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.520 - PIVOT: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.565: faltam manual_servico_oficina | cadastrados: 5
+- T9.580 - COM LEVANTE: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.580 - PIVOT: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- T9.615 - COM LEVANTE: faltam manual_servico_oficina | cadastrados: 6
+- T9.615 - PIVOT: faltam manual_servico_oficina | cadastrados: 6
+- T9.700 - PIVOT: faltam manual_servico_oficina | cadastrados: 8
+- TK4.80N: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- TL100: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TL5.100: faltam manual_servico_oficina | cadastrados: 7
+- TL5.80: faltam manual_servico_oficina | cadastrados: 7
+- TL5.90: faltam manual_servico_oficina | cadastrados: 7
+- TL60E: faltam manual_servico_oficina | cadastrados: 8
+- TL65: faltam manual_servico_oficina | cadastrados: 6
+- TL70: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TL75: faltam manual_servico_oficina | cadastrados: 7
+- TL75E: faltam manual_servico_oficina | cadastrados: 7
+- TL80: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TL85: faltam manual_servico_oficina | cadastrados: 7
+- TL85E: faltam manual_servico_oficina | cadastrados: 7
+- TL90: faltam manual_servico_oficina | cadastrados: 6
+- TL95: faltam manual_servico_oficina | cadastrados: 6
+- TL95E: faltam manual_servico_oficina | cadastrados: 7
+- TM.7020: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TM.7040: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TM120: faltam manual_operador; manual_servico_oficina | cadastrados: 3
+- TM135: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TM140: faltam manual_operador; manual_servico_oficina | cadastrados: 3
+- TM150: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TM165: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TM7010: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TS100: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TS110: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TS120: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TS6020: faltam manual_operador; manual_servico_oficina | cadastrados: 3
+- TS6040: faltam manual_operador; manual_servico_oficina | cadastrados: 3
+- TT3.50: faltam manual_operador; manual_servico_oficina | cadastrados: 4
+- TT3840: faltam manual_servico_oficina | cadastrados: 5
+- TT3880: faltam manual_servico_oficina | cadastrados: 5
+- TT3880F: faltam manual_servico_oficina | cadastrados: 5
+- TT4.75: faltam manual_operador | cadastrados: 6
+- TT4.90: faltam manual_operador | cadastrados: 5
+- TT4030: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TT55: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- TT65F: faltam manual_operador; manual_servico_oficina | cadastrados: 5
+- TT75: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+
+### VALTRA
+- 1280: faltam manual_servico_oficina | cadastrados: 4
+- 1380 S: faltam manual_servico_oficina | cadastrados: 4
+- 1780: faltam manual_servico_oficina | cadastrados: 4
+- 585: faltam manual_servico_oficina | cadastrados: 5
+- 685: faltam manual_servico_oficina | cadastrados: 5
+- 785: faltam manual_servico_oficina | cadastrados: 5
+- 800: faltam manual_servico_oficina | cadastrados: 4
+- 885: faltam manual_servico_oficina | cadastrados: 4
+- 985: faltam manual_servico_oficina | cadastrados: 4
+- A104: faltam manual_servico_oficina | cadastrados: 7
+- A114: faltam manual_servico_oficina | cadastrados: 7
+- A114LP: faltam manual_servico_oficina | cadastrados: 4
+- A124: faltam manual_servico_oficina | cadastrados: 7
+- A124H: faltam manual_servico_oficina | cadastrados: 5
+- A124LC: faltam manual_servico_oficina | cadastrados: 4
+- A124LP: faltam manual_servico_oficina | cadastrados: 4
+- A134: faltam manual_servico_oficina | cadastrados: 7
+- A134H: faltam manual_servico_oficina | cadastrados: 5
+- A144: faltam manual_servico_oficina | cadastrados: 5
+- A144H: faltam manual_servico_oficina | cadastrados: 5
+- A144L: faltam manual_servico_oficina | cadastrados: 4
+- A144LC: faltam manual_servico_oficina | cadastrados: 4
+- A52s: faltam manual_servico_oficina | cadastrados: 5
+- A550: faltam manual_servico_oficina | cadastrados: 4
+- A62s: faltam manual_servico_oficina | cadastrados: 5
+- A63F: faltam manual_servico_oficina | cadastrados: 6
+- A73F: faltam manual_servico_oficina | cadastrados: 5
+- A74: faltam manual_servico_oficina | cadastrados: 4
+- A74SC: faltam manual_servico_oficina | cadastrados: 3
+- A750: faltam manual_servico_oficina | cadastrados: 8
+- A800C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A800P: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A800R: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A83F: faltam manual_servico_oficina | cadastrados: 6
+- A84: faltam manual_servico_oficina | cadastrados: 4
+- A850: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A850C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A850F: faltam manual_servico_oficina | cadastrados: 5
+- A850R: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A93F: faltam manual_servico_oficina | cadastrados: 6
+- A94: faltam manual_servico_oficina | cadastrados: 7
+- A950: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A950C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A950R: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A990: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A990C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- A990R: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BF75: faltam manual_servico_oficina | cadastrados: 5
+- BH140: faltam manual_servico_oficina | cadastrados: 5
+- BH145: faltam manual_servico_oficina | cadastrados: 6
+- BH160: faltam manual_servico_oficina | cadastrados: 6
+- BH165: faltam manual_servico_oficina | cadastrados: 7
+- BH180: faltam manual_servico_oficina | cadastrados: 7
+- BH185i: faltam manual_servico_oficina | cadastrados: 8
+- BH205i: faltam manual_servico_oficina | cadastrados: 6
+- BL77: faltam manual_servico_oficina | cadastrados: 4
+- BL88: faltam manual_servico_oficina | cadastrados: 4
+- BM115: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BM115C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BM135: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BM135C: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BT170: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BT190: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- BT210: faltam manual_operador; manual_servico_oficina; catalogo_pecas | cadastrados: 0
+- T120: faltam manual_servico_oficina | cadastrados: 4
+
+## Cobertura por modelo
+
+### MASSEY FERGUSON
+- 8S.205: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 8S.225: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 8S.245: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 8S.265: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 8S.285: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 8S.305: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF235: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF250: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF255: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF255 ADVANCED: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF265: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF275: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF283: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF290: 10 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF291: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF292: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF296: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF297: 4 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- MF299: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF3306: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF3307: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF3308: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4265: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4275: 8 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4280: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4283: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4290: 1 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- MF4292: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4297: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4299: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4305: 3 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4307: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4408: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4409: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4410: 10 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4707: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- MF4708: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF4709: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- MF50: 3 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+
+### NEW HOLLAND
+- T9.470 - COM LEVANTE: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.470 - PIVOT: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.480: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.520 - COM LEVANTE: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.520 - PIVOT: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.565: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.580 - COM LEVANTE: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.580 - PIVOT: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.615 - COM LEVANTE: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.615 - PIVOT: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- T9.700 - PIVOT: 8 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TK4.80N: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL100: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL5.100: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL5.80: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL5.90: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL60E: 8 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL65: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL70: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL75: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL75E: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL80: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL85: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL85E: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TL90: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL95: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TL95E: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM.7020: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM.7040: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM120: 3 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TM135: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM140: 3 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TM150: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM165: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TM7010: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TS100: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TS110: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TS120: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TS6020: 3 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TS6040: 3 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT3.50: 4 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT3840: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT3880: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT3880F: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT4.75: 6 manual(is) | operador=False; servico=True; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TT4.90: 5 manual(is) | operador=False; servico=True; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT4030: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TT55: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- TT65F: 5 manual(is) | operador=False; servico=False; pecas=True; manutencao=False; eletrico_hidraulico=False; ficha=True
+- TT75: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+
+### VALTRA
+- 1280: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- 1380 S: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- 1780: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- 585: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 685: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 785: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- 800: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- 885: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- 985: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- A104: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A114: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A114LP: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A124: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A124H: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A124LC: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A124LP: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A134: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A134H: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A144: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A144H: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A144L: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A144LC: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A52s: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A550: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A62s: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A63F: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A73F: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=False
+- A74: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A74s: 7 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A74SC: 3 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=False
+- A750: 8 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A800C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A800P: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A800R: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A83F: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A84: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A84s: 7 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A850: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A850C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A850F: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A850R: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A93F: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A94: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A94S: 7 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=False; ficha=True
+- A950: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A950C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A950R: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A990: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A990C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- A990R: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BF75: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BH140: 5 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BH145: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BH160: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- BH165: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- BH180: 7 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- BH185i: 8 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=True
+- BH205i: 6 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BL77: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BL88: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BM100: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BM110: 6 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BM115: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BM115C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BM120: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BM125: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BM135: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BM135C: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BM85: 5 manual(is) | operador=True; servico=True; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+- BT170: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BT190: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- BT210: 0 manual(is) | operador=False; servico=False; pecas=False; manutencao=False; eletrico_hidraulico=False; ficha=False
+- T120: 4 manual(is) | operador=True; servico=False; pecas=True; manutencao=True; eletrico_hidraulico=True; ficha=False
+

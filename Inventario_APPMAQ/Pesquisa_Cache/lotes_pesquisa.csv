@@ -1,0 +1,2 @@
+﻿data_lote,batch_id,tamanho_lote,status,observacao
+"2026-07-01T09:59:25","batch_20260701_095925","5","selecionado","Lote selecionado ignorando itens com cache local."

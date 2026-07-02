@@ -1,0 +1,41 @@
+# Arquivos sensiveis
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*cookie*
+*senha*
+*password*
+
+# Temporarios e downloads locais
+tmp/
+_appmaq_tmp/
+_downloads_tmp/
+*.tmp
+*.temp
+*.log
+
+# PDFs e arquivos grandes de manuais
+# O GitHub deve guardar o processo, scripts, inventarios e configuracoes.
+# Os manuais finais ficam no HD E: ou em backup proprio.
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# Sistema/Windows/editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Python/cache
+__pycache__/
+*.pyc
+.pytest_cache/
+

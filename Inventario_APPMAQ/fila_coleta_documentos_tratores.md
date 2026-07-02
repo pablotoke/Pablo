@@ -1,0 +1,104 @@
+﻿# Fila de coleta de documentos - tratores
+
+Modelos avaliados: 162
+Itens na fila: 864
+
+## Por prioridade
+- Prioridade 1: 291
+- Prioridade 2: 125
+- Prioridade 3: 166
+- Prioridade 4: 268
+- Prioridade 5: 14
+
+## Por tipo
+- catalogo_pecas: 24
+- catalogo_pecas_complementar: 136
+- ficha_tecnica_folheto: 75
+- manual_complementar: 136
+- manual_eletrico_hidraulico: 100
+- manual_manutencao: 71
+- manual_operador: 51
+- manual_servico_oficina: 134
+- treinamento_diagnostico: 137
+
+## Primeiros itens
+- P1 | MASSEY FERGUSON 8S.305 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF3306 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF3307 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF3308 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4290 | catalogo_pecas | pesquisar
+- P1 | MASSEY FERGUSON MF4290 | manual_operador | pesquisar
+- P1 | MASSEY FERGUSON MF4408 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4409 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4410 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | catalogo_pecas | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | ficha_tecnica_folheto | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | manual_eletrico_hidraulico | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | manual_manutencao | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | manual_operador | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4707 | treinamento_diagnostico | pesquisar
+- P1 | MASSEY FERGUSON MF4708 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF4709 | manual_servico_oficina | pesquisar
+- P1 | MASSEY FERGUSON MF50 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.470 - COM LEVANTE | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.470 - COM LEVANTE | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.470 - PIVOT | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.470 - PIVOT | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.480 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.520 - COM LEVANTE | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.520 - COM LEVANTE | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.520 - PIVOT | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.520 - PIVOT | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.565 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.580 - COM LEVANTE | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.580 - COM LEVANTE | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.580 - PIVOT | manual_operador | pesquisar
+- P1 | NEW HOLLAND T9.580 - PIVOT | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.615 - COM LEVANTE | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.615 - PIVOT | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND T9.700 - PIVOT | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TK4.80N | catalogo_pecas | pesquisar
+- P1 | NEW HOLLAND TK4.80N | ficha_tecnica_folheto | pesquisar
+- P1 | NEW HOLLAND TK4.80N | manual_eletrico_hidraulico | pesquisar
+- P1 | NEW HOLLAND TK4.80N | manual_manutencao | pesquisar
+- P1 | NEW HOLLAND TK4.80N | manual_operador | pesquisar
+- P1 | NEW HOLLAND TK4.80N | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TK4.80N | treinamento_diagnostico | pesquisar
+- P1 | NEW HOLLAND TL100 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TL100 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL5.100 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL5.80 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL5.90 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL60E | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL65 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL70 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TL70 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL75 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL75E | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL80 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TL80 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL85 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL85E | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL90 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL95 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TL95E | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM.7020 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM.7020 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM.7040 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM.7040 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM120 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM120 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM135 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM135 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM140 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM140 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM150 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM150 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM165 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM165 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TM7010 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TM7010 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TS100 | manual_operador | pesquisar
+- P1 | NEW HOLLAND TS100 | manual_servico_oficina | pesquisar
+- P1 | NEW HOLLAND TS110 | manual_operador | pesquisar

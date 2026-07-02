@@ -1,0 +1,23 @@
+﻿{
+    "criado_em":  "2026-07-01T09:59:22",
+    "protocolo":  "pesquisa_economica_manuais",
+    "idiomas_aceitos":  [
+                            "PT",
+                            "ES",
+                            "EN"
+                        ],
+    "idiomas_rejeitados":  [
+                               "RU",
+                               "AR",
+                               "ZH",
+                               "PL"
+                           ],
+    "fontes_prioritarias":  [
+                                "Scribd",
+                                "ManualsLib",
+                                "Site oficial",
+                                "JSAgro",
+                                "Fonte gratuita"
+                            ],
+    "regra_pasta_modelo":  "Criar subpasta somente quando houver documento real, link forte validado ou arquivo baixado."
+}
