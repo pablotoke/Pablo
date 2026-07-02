@@ -101,7 +101,15 @@ async function discoverIds(token) {
   const brand = brands.find((item) => String(item.name).toUpperCase() === BRAND_NAME);
   if (!brand) throw new Error(`Marca nao encontrada: ${BRAND_NAME}`);
 
-  const models = await getJson(`${API_BASE}/vehicles/public/models/types/${type.id}/brands/${brand.id}/actives-with-children?destination=1`, token);
+  let models = [];
+  try {
+    models = await getJson(`${API_BASE}/vehicles/models/types/${type.id}/brands/${brand.id}`, token);
+  } catch {
+    models = [];
+  }
+  if (!Array.isArray(models) || models.length === 0) {
+    models = await getJson(`${API_BASE}/vehicles/public/models/types/${type.id}/brands/${brand.id}/actives-with-children?destination=1`, token);
+  }
   const modelMap = new Map(models.map((item) => [String(item.model).toUpperCase(), item]));
 
   return { type, brand, modelMap };
@@ -142,6 +150,49 @@ async function uploadBatch({ token, typeId, brandId, modelId, files }) {
   });
   const text = await res.text();
   return { status: res.status, ok: res.ok, text: text.slice(0, 500) };
+}
+
+async function uploadWithFallback({ token, typeId, brandId, modelId, model, files }) {
+  const result = await uploadBatch({ token, typeId, brandId, modelId, files });
+  if (result.ok || result.status !== 413 || files.length <= 1) {
+    if (!result.ok && result.status === 413 && files.length === 1) {
+      return {
+        status: result.status,
+        ok: false,
+        text: `PDF individual maior que o limite do servidor; precisa compactar antes de reenviar. ${result.text}`,
+      };
+    }
+    return result;
+  }
+
+  console.log(`[${model}] pacote grande demais; reenviando ${files.length} PDF(s) um por um.`);
+  for (const file of files) {
+    const singleResult = await uploadBatch({ token, typeId, brandId, modelId, files: [file] });
+    const fileName = path.basename(file);
+    console.log(`[${model}] ${fileName} -> ${singleResult.status} ${singleResult.ok ? 'OK' : 'FALHOU'}`);
+    await writeReport({
+      modelo: model,
+      modelo_id: modelId,
+      arquivos: 1,
+      status: singleResult.status,
+      ok: singleResult.ok,
+      mensagem: `${fileName} | ${singleResult.text}`,
+    });
+
+    if (!singleResult.ok) {
+      return {
+        status: singleResult.status,
+        ok: false,
+        text: `Falhou ao enviar ${fileName}: ${singleResult.text}`,
+      };
+    }
+  }
+
+  return {
+    status: '200_PARTES',
+    ok: true,
+    text: `Enviado em ${files.length} partes por limite de tamanho do servidor.`,
+  };
 }
 
 function parseArgs() {
@@ -194,6 +245,8 @@ async function main() {
   const cookies = await context.cookies(['https://appmaq.com.br']);
   const tokenCookie = cookies.find((cookie) => cookie.name === 'user_app_maq');
   if (!tokenCookie?.value) {
+    await context.close();
+    await rl.close();
     throw new Error('Nao encontrei o cookie user_app_maq depois do login. Nao foi feito upload.');
   }
   const token = tokenCookie.value;
@@ -220,11 +273,12 @@ async function main() {
 
     console.log(`[${model}] ${files.length} PDF(s) -> upload`);
 
-    const result = await uploadBatch({
+    const result = await uploadWithFallback({
       token,
       typeId: type.id,
       brandId: brand.id,
       modelId: item.id,
+      model,
       files,
     });
     console.log(`[${model}] status ${result.status} ${result.ok ? 'OK' : 'FALHOU'}`);
@@ -238,10 +292,13 @@ async function main() {
     });
 
     if (!result.ok) {
+      await context.close();
+      await rl.close();
       throw new Error(`Upload falhou em ${model}: ${result.status} ${result.text}`);
     }
   }
 
+  await context.close();
   await rl.close();
   console.log('Concluido.');
 }

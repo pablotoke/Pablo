@@ -2,13 +2,15 @@
 
 ## Atualizacao 2026-07-02 - Upload AppMaq
 
-- [ ] Fazer login na janela do Chrome controlado e testar o uploader por API no modelo `A800R`.
-- [ ] Depois que `A800R` for confirmado no AppMaq, rodar o uploader em lote do `A850` ao `BT210`.
 - [ ] Validar no painel administrativo os modelos enviados por API antes de considerar o lote concluido.
+- [ ] Configurar compressao de PDF se algum PDF individual retornar `413 Request Entity Too Large`.
 - [x] `A800C` foi enviado e confirmado no painel administrativo com 4 PDFs.
 - [x] `A800P` foi enviado e confirmado no painel administrativo com 4 PDFs.
+- [x] `A800R` foi enviado por API com 6 PDFs e status `200 OK`.
+- [x] Lote `VALTRA 3` de `A850` ate `BT210` foi enviado por API.
+- [x] `A990` foi reenviado em partes por limite do pacote; cada PDF foi enviado inteiro, sem dividir documento.
 - [x] Criado uploader por API/Chrome controlado em `scripts\appmaq-upload-valtra3.mjs`.
-- [x] Teste local do uploader em `A800R` confirmou 6 PDFs; o upload real nao ocorreu porque a janela Chrome controlada ainda nao estava logada.
+- [x] Teste local do uploader em `A800R` confirmou 6 PDFs; depois o upload real foi concluido quando a janela Chrome controlada estava logada.
 
 ## Prioridade Alta
 

@@ -19,6 +19,14 @@ Atualizacao de upload em 2026-07-02:
 - O teste real em `A800R` nao enviou arquivos porque a janela Chrome controlada nao estava logada e o cookie `user_app_maq` nao foi encontrado. Sem sessao valida, o script encerra sem upload.
 - Proximo passo pratico: abrir o script, fazer login no Chrome controlado e rodar primeiro `--model=A800R`; depois confirmar no painel e executar o restante do lote.
 
+Atualizacao posterior em 2026-07-02:
+
+- `A800R` foi enviado ao AppMaq por API com 6 PDFs e status `200 OK`.
+- O restante do lote `VALTRA 3`, de `A850` ate `BT210`, foi enviado por API.
+- `A990` retornou `413 Request Entity Too Large` no envio em lote; o script reenviou os 6 PDFs individualmente, cada PDF inteiro, todos com `200 OK`.
+- Nao houve divisao interna de PDF. A divisao feita foi somente no pacote de envio. Se um PDF individual retornar `413`, ele deve ser compactado antes de reenviar.
+- Relatorio principal: `Inventario_APPMAQ\Lotes_Usuario\upload_appmaq_valtra3_api_2026-07-02.csv`.
+
 Ja existe uma estrutura local de trabalho com scripts PowerShell, inventarios CSV/JSON/MD e regras operacionais documentadas.
 
 Os lotes Valtra 3 e Valtra 4 foram montados no HD `E:` com os PDFs diretamente dentro das pastas dos modelos, sem subpastas internas e sem arquivos auxiliares dentro das pastas de modelos.
