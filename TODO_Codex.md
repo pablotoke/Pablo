@@ -22,6 +22,7 @@
 
 ## Tarefas concluidas
 
+- [x] Testado upload em lote no AppMaq para `A800C` com 4 PDFs. Arquivo de registro: `Inventario_APPMAQ\Lotes_Usuario\upload_appmaq_teste_a800c_2026-07-02.md`. Risco: medio, confirmado na listagem administrativa filtrada.
 - [x] Criado protocolo de pesquisa economica. Arquivo: `PROTOCOLO_PESQUISA_ECONOMICA_MANUAIS.md`. Risco: baixo. Creditos/contexto: economiza buscas futuras.
 - [x] Criada configuracao consolidada das regras do usuario. Arquivo: `CONFIGURACAO_COLETA_USUARIO.md`. Risco: baixo. Creditos/contexto: economiza releitura de chat.
 - [x] Organizado lote `VALTRA 3` com 20 modelos e 103 PDFs finais. Local: `E:\MANUAIS_APPMAQ\Trator Agricola\VALTRA 3`. Risco: baixo, conferido sem arquivos nao-PDF.
@@ -29,4 +30,3 @@
 - [x] Biblioteca de 4 genericos Valtra confirmada. Local: `E:\MANUAIS_APPMAQ\_GENERICOS\VALTRA`. Risco: baixo.
 - [x] Identificado bloqueio tecnico do upload visual no AppMaq sem alterar dados no site. Arquivo provavel de continuidade: `CHECKPOINT_Codex.md`. Risco: baixo, pois nada foi enviado.
 - [x] Criado pacote de continuidade da sessao. Arquivos: `AGENTS.md`, `CHECKPOINT_Codex.md`, `TODO_Codex.md`, `CONTINUIDADE_NOVA_SESSAO.md`. Risco: baixo.
-

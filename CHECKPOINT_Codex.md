@@ -54,6 +54,21 @@ Campos esperados do `FormData`, conforme inferido do chunk do site:
 
 Essa inferencia deve ser tratada com cuidado porque ainda nao foi validada por um upload real.
 
+Atualizacao em 2026-07-02:
+
+O primeiro teste pratico de upload pelo painel administrativo foi executado com sucesso para o modelo `A800C`.
+
+- Tipo: `Trator Agricola`
+- Marca: `VALTRA`
+- Modelo: `A800C`
+- Quantidade: 4 manuais
+- Metodo: painel AppMaq, botao `Add em Lote`
+- Parte manual: usuario selecionou os 4 PDFs no seletor do Windows.
+- Parte automatizada: Codex preencheu tipo, marca, modelo e clicou em `Criar 4 Manuais`.
+- Confirmacao: listagem administrativa filtrada por `A800C` retornou 4 linhas.
+- Registro: `Inventario_APPMAQ\Lotes_Usuario\upload_appmaq_teste_a800c_2026-07-02.md`
+- Observacao: a consulta publica do modelo ainda retornou `[]` logo apos o upload; usar a listagem administrativa como confirmacao principal desse teste.
+
 ## 4. Estrutura de pastas e arquivos
 
 Raiz do projeto:
@@ -341,4 +356,3 @@ Projeto PowerShell/CSV/JSON para coleta e organizacao de manuais AppMaq. Lotes V
 O trabalho atual deixou os PDFs dos lotes Valtra organizados no HD `E:` do jeito combinado: cada modelo com PDFs direto dentro da pasta. Tambem ficou documentado como pesquisar sem gastar creditos a toa, quais fontes usar, como validar documentos e quais relatorios guardar.
 
 O ponto que ainda precisa ser resolvido e a subida automatica para o AppMaq. O teste com A800C nao alterou nada no site porque o navegador interno nao conseguiu operar corretamente a janela de upload. A nova conversa pode continuar lendo estes arquivos, sem depender do historico antigo do chat.
-

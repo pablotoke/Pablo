@@ -1,0 +1,2 @@
+data,modelo,tipo,marca,status,quantidade,observacao
+2026-07-02,A800C,Trator Agricola,VALTRA,confirmado_no_admin,4,"Upload em lote realizado pelo painel AppMaq; filtro administrativo retornou 4 linhas para o modelo A800C."
