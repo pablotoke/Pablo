@@ -1,5 +1,15 @@
 # TODO DO PROJETO
 
+## Atualizacao 2026-07-02 - Upload AppMaq
+
+- [ ] Fazer login na janela do Chrome controlado e testar o uploader por API no modelo `A800R`.
+- [ ] Depois que `A800R` for confirmado no AppMaq, rodar o uploader em lote do `A850` ao `BT210`.
+- [ ] Validar no painel administrativo os modelos enviados por API antes de considerar o lote concluido.
+- [x] `A800C` foi enviado e confirmado no painel administrativo com 4 PDFs.
+- [x] `A800P` foi enviado e confirmado no painel administrativo com 4 PDFs.
+- [x] Criado uploader por API/Chrome controlado em `scripts\appmaq-upload-valtra3.mjs`.
+- [x] Teste local do uploader em `A800R` confirmou 6 PDFs; o upload real nao ocorreu porque a janela Chrome controlada ainda nao estava logada.
+
 ## Prioridade Alta
 
 - [ ] Confirmar com o usuario o caminho para upload no AppMaq: manual assistido no navegador ou API administrativa. Arquivos provaveis: `CHECKPOINT_Codex.md`, futuro manifest de upload. Risco: alto, pode anexar documentos no modelo errado. Creditos/contexto: baixo se usar inventario local.

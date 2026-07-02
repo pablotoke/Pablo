@@ -1,0 +1,3 @@
+data,modelo,tipo,marca,status,quantidade,observacao
+2026-07-02,A800C,Trator Agricola,VALTRA,confirmado_no_admin,4,"Upload em lote confirmado anteriormente no painel administrativo."
+2026-07-02,A800P,Trator Agricola,VALTRA,confirmado_no_admin,4,"Upload em lote confirmado no painel administrativo; arquivos selecionados manualmente pelo usuario no seletor do Windows."

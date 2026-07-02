@@ -10,6 +10,15 @@ O foco atual esta em tratores agricolas Valtra.
 
 ## 2. Resultado atual
 
+Atualizacao de upload em 2026-07-02:
+
+- `A800C` foi enviado ao AppMaq e confirmado na listagem administrativa com 4 PDFs.
+- `A800P` foi enviado ao AppMaq e confirmado na listagem administrativa com 4 PDFs.
+- Foi criado o script `scripts\appmaq-upload-valtra3.mjs` para abrir um Chrome controlado, usar a sessao admin do AppMaq e enviar PDFs por API para `/vehicles/manuals/batch`.
+- O teste local em `A800R` confirmou 6 PDFs na pasta do modelo.
+- O teste real em `A800R` nao enviou arquivos porque a janela Chrome controlada nao estava logada e o cookie `user_app_maq` nao foi encontrado. Sem sessao valida, o script encerra sem upload.
+- Proximo passo pratico: abrir o script, fazer login no Chrome controlado e rodar primeiro `--model=A800R`; depois confirmar no painel e executar o restante do lote.
+
 Ja existe uma estrutura local de trabalho com scripts PowerShell, inventarios CSV/JSON/MD e regras operacionais documentadas.
 
 Os lotes Valtra 3 e Valtra 4 foram montados no HD `E:` com os PDFs diretamente dentro das pastas dos modelos, sem subpastas internas e sem arquivos auxiliares dentro das pastas de modelos.
